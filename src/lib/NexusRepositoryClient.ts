@@ -9,7 +9,7 @@ import { InvalidURLProtocolException } from './errors/InvalidURLProtocolExceptio
 import { FileDoesNotExistException } from './errors/FileDoesNotExistException';
 import { normalizeDestPath, basicAuthHeader } from './utils';
 
-const USER_AGENT = 'cdqag/upload-to-nexus'
+const USER_AGENT = 'cdqag/action-upload-to-nexus'
 
 export class NexusRepositoryClient {
   private instanceUrl: URL;

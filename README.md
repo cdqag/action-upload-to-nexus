@@ -7,7 +7,7 @@ This GitHub Action upload given file(s) to pointed Nexus instance.
 ## Usage
 
 ```yaml
-- uses: cdqag/upload-to-nexus@v1
+- uses: cdqag/action-upload-to-nexus@v1
   with:
     instance-url: ${{ vars.NEXUS_URL }}
     username: ${{ vars.NEXUS_USER }}
@@ -60,7 +60,7 @@ This example will:
 * if `./file1.txt` does not exist, it will print a warning and continue
 
 ```yaml
-- uses: cdqag/upload-to-nexus@v1
+- uses: cdqag/action-upload-to-nexus@v1
   with:
     instance-url: ${{ vars.NEXUS_URL }}
     username: ${{ vars.NEXUS_USER }}
@@ -82,7 +82,7 @@ This example will:
 * if any file does not exist, it will fail
 
 ```yaml
-- uses: cdqag/upload-to-nexus@v1
+- uses: cdqag/action-upload-to-nexus@v1
   with:
     instance-url: ${{ vars.NEXUS_URL }}
     username: ${{ vars.NEXUS_USER }}
